@@ -87,7 +87,7 @@ def mars_facts():
     except BaseException:
         return None
     # Convert dataframe into HTML format
-    return df.to_html(classes="table table-bordered")
+    return df.to_html(classes="table table-bordered table-condensed table-hover table-striped")
 
 
 # Scrape Hemisphere Data
